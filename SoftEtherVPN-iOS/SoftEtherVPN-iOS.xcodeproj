@@ -1,0 +1,30 @@
+// SoftEtherVPN-iOS.xcodeproj
+// This is a placeholder file. In a real implementation, you would create an Xcode project
+// with the following configurations:
+//
+// 1. Main iOS app target
+// 2. Network Extension target
+// 3. Proper entitlements for VPN
+//
+// This file serves as a reminder that a proper Xcode project needs to be created
+// when opened in Xcode on a Mac.
+
+/*
+Project structure should contain:
+- Main App Target: SoftEtherVPN-iOS
+  - Info.plist
+  - AppDelegate.swift
+  - SceneDelegate.swift
+  - MainViewController.swift
+  - LaunchScreen.storyboard
+  - Entitlements
+
+- Network Extension Target: SoftEtherVPNTunnel
+  - Info.plist (with NetworkExtension capabilities)
+  - PacketTunnelProvider.swift
+  - Entitlements (with Network Extension capabilities)
+  
+- Shared Code
+  - SoftEtherVPNClient.swift
+  - Protocol/
+*/
